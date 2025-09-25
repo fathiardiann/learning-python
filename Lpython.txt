@@ -1,0 +1,64 @@
+konsep fungsi, kelas, dan atribut
+
+== FUNGSI == 
+adalah kumpulan kode yang siap pakai, membantu untuk mengelompokkan kode agar bisa dipakai kembali.
+
+def()
+mean()
+
+== kelas == 
+
+class Mobil:
+	def __init__(self, mobil, tahun):
+		self.x = mobil
+		self.y = tahun
+mobil1 = Mobil("toyota", 2005)
+
+
+>>> self untuk menyimpan mobil dan tahun yang telah di input di mobil1
+self (referensi ke objek yang sedang dibuat)
+
+>>> . "titik" untuk memanggil kembali, 
+
+== atribut == 
+( x,y,z)
+
+
+
+	== virtual environment ==
+from flask import flask, render_template
+
+- templates
+   |index.html
+- static
+  |style.css
+  |scripts.js
+
+python -m venv venv
+
+venv/Scripts/activate
+deactivate
+pip install flask
+pip install request
+
+cek interpeter nya undh (venv) belum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
